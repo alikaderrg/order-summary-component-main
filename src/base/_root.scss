@@ -1,0 +1,33 @@
+:root {
+/*Primary*/
+
+--Pale-blue: hsl(225, 100%, 94%);
+--Pale-blue-opaque: hsl(225, 100%, 94%, 0.3);
+--Bright-blue: hsl(245, 75%, 52%);
+
+--primary-color: var(--Pale-blue);
+--primary-color-opaque: var(--Pale-blue-opaque);
+--secondary-color: var(--Bright-blue);
+
+/*Neutral*/
+
+--Very-pale-blue: hsl(225, 100%, 98%);
+--Desaturated-blue: hsl(224, 23%, 55%);
+--Dark-blue: hsl(223, 47%, 23%);
+
+--nutural-color-1: var(--Very-pale-blue);
+--nutural-color-2: var(--Desaturated-blue);
+--nutural-color-3: var(--Dark-blue);
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+--font-family: 'Red Hat Display', sans-serif;
+--font-size-medium: 15px;
+--font-size-bold: 18px;
+--font-size-black: 24px;
+--font-weight-medium: 500;
+--font-weight-bold: 700;
+--font-weight-black: 900;
+
+}

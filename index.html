@@ -5,7 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="/dist/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Order summary card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,23 +20,77 @@
   </style>
 </head>
 <body>
+<main>
+<div class="main-container">
 
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="header-image">
+    <img src="/images/illustration-hero.svg" alt="">
   </div>
+
+  <div class="order-summary">
+    <div class="summary-title">
+      <h1 class="title">
+        Order Summary
+      </h1>
+    </div>
+
+    <div class="summary-subtitle">
+      <p class="subtitle">
+        You can now listen to millions of songs, audiobooks, and podcasts on
+        any device anywhere you like!
+      </p>
+    </div>
+
+    <div class="subscription">
+
+      <div class="plan">
+        <div class="plan-icon">
+          <img src="/images/icon-music.svg" alt="">
+        </div>
+
+        <div class="plan-info">
+          <h3 class="plan-title">
+            Annual Plan
+          </h3>
+          <p class="pricing">
+            $59.99/year
+          </p>
+        </div>
+
+      </div>
+
+      <div class="change-plan">
+        <p class="change-bttn">
+          Change
+        </p>
+      </div>
+
+    </div>
+
+    <div class="order-processing">
+      <div class="pay-bttn">
+        <h2 class="pay-bttn-title">
+          Proceed to Payment
+        </h2>
+      </div>
+      <div class="cancel-bttn">
+        <h4 class="cancel-bttn-title">
+          Cancel Order
+        </h4>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="footer">
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://instagram.com/alikaderrg">Ali Abdelkader Reguieg</a>.
+  </div>
+</div>
+
+</main>
 </body>
 </html>
